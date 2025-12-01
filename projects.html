@@ -3,42 +3,377 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>All Projects | Nama Kamu</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Ali Sulas Hidayat | Projects Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/stylec.css" />
 </head>
-<body>
-  <div class="page">
-    <header class="topbar card">
-      <a class="btn" href="index.html">← Back</a>
-      <div>
-        <h1>All Projects</h1>
-        <p class="muted">Daftar lengkap project kamu (bisa tambah sebanyak-banyaknya).</p>
-      </div>
-    </header>
 
-    <main class="project-grid">
-      <!-- copy kartu project dari index, tambah sebanyak perlu -->
-      <article class="project card">
-        <img src="assets/img/p1.jpg" alt="Project" />
-        <div class="p-body">
-          <h3>Project Title</h3>
-          <p class="muted">Deskripsi singkat.</p>
-          <div class="chips">
-            <span class="chip">Python</span><span class="chip">ML</span>
+<body>
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">
+          <img src="assets/img/avatar.jpeg" alt="Foto profil" />
+        </div>
+        <h1>Ali Sulas Hidayat</h1>
+        <p>Data Scientist & ML Engineer</p>
+      </div>
+
+      <hr />
+
+      <div class="block">
+        <div class="block-title">Contact</div>
+        <div class="info-row">
+          <span class="info-icon">✉️</span>
+          <span>sulashidayat@email.com</span>
+        </div>
+        <div class="info-row">
+          <span class="info-icon">📞</span>
+          <span>+62 896-7595-2920</span>
+        </div>
+        <div class="info-row">
+          <span class="info-icon">📍</span>
+          <span>Indonesia</span>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="block">
+        <div class="block-title">Connect</div>
+        <nav>
+          <a href="https://github.com/alisulas" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/alisulas" target="_blank">LinkedIn</a>
+          <a href="mailto:sulashidayat@email.com">Email Me</a>
+        </nav>
+      </div>
+
+      <div class="sidebar-stack">
+        <a class="btn" href="projects.html"> All Projects</a>
+        <a class="btn" href="assets/files/resume.pdf" download>Download Resume</a>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <div class="header">
+        <h1>TRANSFORMING DATA INTO</h1>
+        <h1 class="text-gray">MEASURABLE IMPACT</h1>
+        <p>16+ projects across Data Science, Data Visualisation, Machine Learning, and  Business Intelligence — an end-to-end project from problem to insight.</p>
+      </div>
+
+      <!-- Category 1: Predictive Analytics -->
+      <section class="category">
+        <div class="category-title">
+          <div class="category-badge">Data Science</div>
+          <h2>Predictive Analytics & Forecasting</h2>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Customer Churn Prediction</h3>
+              <p>What if our customer does't like our product anymore?</p>
+            </div>
           </div>
-          <div class="btnrow mt">
-            <a class="btn" href="#">Code</a>
-            <a class="btn btn-dark" href="#">Demo</a>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Identify at-risk customers 90 days in advance with actionable retention recommendations.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
           </div>
         </div>
-      </article>
+
+
+        
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Sales Forecasting System</h3>
+              <p class="project-description">Build accurate demand forecasting to optimize inventory and improve supply chain efficiency.</p>
+              <div class="project-tags">
+                <h5>Skills:</h5>
+                <span class="tag">Time Series</span>
+                <span class="tag">ARIMA</span>
+                <span class="tag">Prophet</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Generate monthly sales forecasts with seasonal decomposition for inventory planning.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Credit Risk Scoring Engine</h3>
+              <p class="project-description">Develop ML model to assess credit risk and automate loan approval decisions in real-time.</p>
+              <div class="project-tags">
+                <span class="tag">XGBoost</span>
+                <span class="tag">SMOTE</span>
+                <span class="tag">SHAP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Reduce loan default rate while maintaining high approval throughput for financial institution.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Category 2: Deep Learning & Computer Vision -->
+      <section class="category">
+        <div class="category-title">
+          <div class="category-badge">Machine Learning</div>
+          <h2>Computer Vision & Deep Learning</h2>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Manufacturing Quality Control</h3>
+              <p class="project-description">Automate defect detection in production lines to improve quality and reduce manual inspection.</p>
+              <div class="project-tags">
+                <span class="tag">Computer Vision</span>
+                <span class="tag">CNN</span>
+                <span class="tag">PyTorch</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Real-time defect detection to maintain quality standards and reduce manual inspection time by 80%.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Medical Image Classification</h3>
+              <p class="project-description">Assist radiologists in detecting abnormalities from X-ray and CT scan images using transfer learning.</p>
+              <div class="project-tags">
+                <span class="tag">Transfer Learning</span>
+                <span class="tag">EfficientNet</span>
+                <span class="tag">TensorFlow</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Accelerate diagnostic process by 60% with high-confidence abnormality detection across 3 hospitals.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Category 3: NLP & Text Analytics -->
+      <section class="category">
+        <div class="category-title">
+          <div class="category-badge">Deep Learning</div>
+          <h2>Natural Language Processing</h2>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Multi-language Sentiment Analysis</h3>
+              <p class="project-description">Analyze customer sentiment from social media and reviews across 15 languages in real-time.</p>
+              <div class="project-tags">
+                <span class="tag">NLP</span>
+                <span class="tag">BERT</span>
+                <span class="tag">Streaming</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Process 1M+ posts daily to provide actionable sentiment insights across global markets.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Intelligent Customer Support Chatbot</h3>
+              <p class="project-description">Automate tier-1 customer support with intent classification and intelligent response generation.</p>
+              <div class="project-tags">
+                <span class="tag">Intent Classification</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Reduce support costs by automatically handling 70% of routine queries with 80%+ satisfaction.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Category 4: Business Intelligence & Analytics -->
+      <section class="category">
+        <div class="category-title">
+          <div class="category-badge">Data Visualisation</div>
+          <h2>Business Intelligence & Analytics</h2>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Executive Dashboard for KPI Tracking</h3>
+              <p class="project-description">Real-time visibility into key business metrics for executive decision-making and strategy alignment.</p>
+              <div class="project-tags">
+                <span class="tag">Tableau</span>
+                <span class="tag">BI</span>
+                <span class="tag">Dashboard</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Enable C-suite executives to monitor real-time business metrics and make data-driven decisions.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Customer Segmentation Analysis</h3>
+              <p class="project-description">Identify customer segments for targeted marketing and personalized customer experiences.</p>
+              <div class="project-tags">
+                <span class="tag">Clustering</span>
+                <span class="tag">RFM Analysis</span>
+                <span class="tag">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Discover 7 distinct customer segments for personalized marketing campaigns and product recommendations.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
-
-    <footer class="footer">
-      <div class="muted">© <span id="year"></span> Nama Kamu</div>
-    </footer>
   </div>
-
-  <script src="assets/js/main.js"></script>
 </body>
 </html>

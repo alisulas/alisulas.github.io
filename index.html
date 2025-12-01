@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio | Ali Sulas Hidayat</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Ali Sulas Hidayat | Projects Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/stylec.css" />
 </head>
 
 <body>
@@ -16,244 +17,363 @@
           <img src="assets/img/avatar.jpeg" alt="Foto profil" />
         </div>
         <h1>Ali Sulas Hidayat</h1>
-        <p class="muted">Data Scientist & ML Engineer</p>
+        <p>Data Scientist & ML Engineer</p>
       </div>
 
       <hr />
 
       <div class="block">
-        <div class="block-title">CONTACT</div>
-        <div class="contact">
-          <div class="row"><span class="icon">✉️</span><span>sulashidayat@email.com</span></div>
-          <div class="row"><span class="icon">📞</span><span>+62 896-7595-2920</span></div>
-          <div class="row"><span class="icon">📍</span><span>Indonesia</span></div>
+        <div class="block-title">Contact</div>
+        <div class="info-row">
+          <span class="info-icon">✉️</span>
+          <span>sulashidayat@email.com</span>
+        </div>
+        <div class="info-row">
+          <span class="info-icon">📞</span>
+          <span>+62 896-7595-2920</span>
+        </div>
+        <div class="info-row">
+          <span class="info-icon">📍</span>
+          <span>Indonesia</span>
         </div>
       </div>
 
       <hr />
 
       <div class="block">
-        <div class="block-title">CONNECT</div>
-        <nav class="links">
-          <a href="https://github.com/alisulas" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/alisulas" target="_blank" rel="noreferrer">LinkedIn</a>
+        <div class="block-title">Connect</div>
+        <nav>
+          <a href="https://github.com/alisulas" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/alisulas" target="_blank">LinkedIn</a>
           <a href="mailto:sulashidayat@email.com">Email Me</a>
         </nav>
       </div>
 
-      <a class="btn btn-outline" href="projects.html">All Project</a>
-      <a class="btn btn-dark" href="assets/files/resume.pdf" download>Download Resume</a>
+      <div class="sidebar-stack">
+        <a class="btn" href="projects.html"> All Projects</a>
+        <a class="btn" href="assets/files/resume.pdf" download>Download Resume</a>
+      </div>
     </aside>
 
     <!-- Main -->
     <main class="main">
-      <!-- About -->
-      <section id="about" class="section">
-        <header class="section-head">
-          <h2>About Me</h2>
-          <p class="muted">With 5+ years of experience in data science and machine learning, I specialize in building end-to-end ML solutions that deliver measurable business impact.</p>
-        </header>
+      <div class="header">
+        <h1>TRANSFORMING DATA INTO</h1>
+        <h1 class="text-gray">MEASURABLE IMPACT</h1>
+        <p>16+ projects across Data Science, Data Visualisation, Machine Learning, and  Business Intelligence — an end-to-end project from problem to insight.</p>
+      </div>
 
-        <div class="grid-2">
+      <!-- Category 1: Predictive Analytics -->
+      <section class="category">
+        <div class="category-title">
+          <div class="category-badge">Data Science</div>
+          <h2>Predictive Analytics & Forecasting</h2>
+        </div>
+
+        <div class="project-card">
           <div>
-            <p class="mt">
-              I hold a Master's degree in Data Science from Monash University and have worked with companies ranging from startups to State-own Company in Indonesia. My passion lies in uncovering patterns in complex datasets and translating findings into actionable business strategies.
-              When I'm not analyzing data, you can find me contributing to open-source projects, writing technical blog posts, or exploring the latest advances in AI research.
-            </p>
-
-            <div class="chips mt">
-              <span class="chip">Python</span>
-              <span class="chip">SQL</span>
-              <span class="chip">Pandas</span>
-              <span class="chip">TensorFlow</span>
-              <span class="chip">PyTorch</span>
-              <span class="chip">AWS</span>
+            <div class="project-header">
+              <h3>Customer Churn Prediction</h3>
+              <p>What if our customer does't like our product anymore?</p>
             </div>
           </div>
 
-          <div class="stack">
-            <div class="feature">
-              <div class="badge">🧠</div>
-              <div>
-                <div class="feature-title">Machine Learning</div>
-                <div class="muted">Supervised/unsupervised, deep learning, deployment.</div>
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Identify at-risk customers 90 days in advance with actionable retention recommendations.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+
+        
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Sales Forecasting System</h3>
+              <p class="project-description">Build accurate demand forecasting to optimize inventory and improve supply chain efficiency.</p>
+              <div class="project-tags">
+                <h5>Skills:</h5>
+                <span class="tag">Time Series</span>
+                <span class="tag">ARIMA</span>
+                <span class="tag">Prophet</span>
               </div>
             </div>
-            <div class="feature">
-              <div class="badge">🗄️</div>
-              <div>
-                <div class="feature-title">Data Engineering</div>
-                <div class="muted">ETL, pipelines, analytics-ready datasets.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Generate monthly sales forecasts with seasonal decomposition for inventory planning.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Credit Risk Scoring Engine</h3>
+              <p class="project-description">Develop ML model to assess credit risk and automate loan approval decisions in real-time.</p>
+              <div class="project-tags">
+                <span class="tag">XGBoost</span>
+                <span class="tag">SMOTE</span>
+                <span class="tag">SHAP</span>
               </div>
             </div>
-            <div class="feature">
-              <div class="badge">📈</div>
-              <div>
-                <div class="feature-title">Analytics & Insights</div>
-                <div class="muted">Dashboards, experiments, business intelligence.</div>
-              </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Reduce loan default rate while maintaining high approval throughput for financial institution.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Skills -->
-      <section id="skills" class="section">
-        <header class="section-head">
-          <h2>Technical Skills</h2>
-          <p class="muted">Toolkit end-to-end data science & machine learning.</p>
-        </header>
+      <!-- Category 2: Deep Learning & Computer Vision -->
+      <section class="category">
+        <div class="category-title">
+          <div class="category-badge">Machine Learning</div>
+          <h2>Computer Vision & Deep Learning</h2>
+        </div>
 
-        <div class="skill-cards">
-          <div class="card">
-            <h3>Programming</h3>
-            <div class="skill"><span>Python</span><span class="pct">95%</span></div>
-            <div class="bar"><div style="width:95%"></div></div>
-
-            <div class="skill"><span>SQL</span><span class="pct">92%</span></div>
-            <div class="bar"><div style="width:92%"></div></div>
-
-            <div class="skill"><span>R</span><span class="pct">85%</span></div>
-            <div class="bar"><div style="width:85%"></div></div>
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Manufacturing Quality Control</h3>
+              <p class="project-description">Automate defect detection in production lines to improve quality and reduce manual inspection.</p>
+              <div class="project-tags">
+                <span class="tag">Computer Vision</span>
+                <span class="tag">CNN</span>
+                <span class="tag">PyTorch</span>
+              </div>
+            </div>
           </div>
 
-          <div class="card">
-            <h3>Machine Learning</h3>
-            <div class="skill"><span>Scikit-learn</span><span class="pct">90%</span></div>
-            <div class="bar"><div style="width:90%"></div></div>
-
-            <div class="skill"><span>TensorFlow</span><span class="pct">85%</span></div>
-            <div class="bar"><div style="width:85%"></div></div>
-
-            <div class="skill"><span>PyTorch</span><span class="pct">82%</span></div>
-            <div class="bar"><div style="width:82%"></div></div>
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Real-time defect detection to maintain quality standards and reduce manual inspection time by 80%.</div>
           </div>
 
-          <div class="card">
-            <h3>Data Tools</h3>
-            <div class="skill"><span>Pandas/NumPy</span><span class="pct">93%</span></div>
-            <div class="bar"><div style="width:93%"></div></div>
-
-            <div class="skill"><span>Tableau</span><span class="pct">85%</span></div>
-            <div class="bar"><div style="width:85%"></div></div>
-
-            <div class="skill"><span>Power BI</span><span class="pct">78%</span></div>
-            <div class="bar"><div style="width:78%"></div></div>
-          </div>
-
-          <div class="card">
-            <h3>Cloud & DevOps</h3>
-            <div class="skill"><span>AWS</span><span class="pct">87%</span></div>
-            <div class="bar"><div style="width:87%"></div></div>
-
-            <div class="skill"><span>Docker</span><span class="pct">83%</span></div>
-            <div class="bar"><div style="width:83%"></div></div>
-
-            <div class="skill"><span>Git</span><span class="pct">90%</span></div>
-            <div class="bar"><div style="width:90%"></div></div>
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
           </div>
         </div>
 
-      </section>
-
-      <!-- Projects -->
-      <section id="projects" class="section">
-        <header class="section-head">
-          <h2>My Projects</h2>
-          <p class="muted">Project pilihan yang menampilkan impact dan skill utama.</p>
-        </header>
-
-        <div class="project-grid">
-          <article class="project card">
-            <img src="assets/img/p1.jpeg" alt="Project 1" />
-            <div class="p-body">
-              <h3>Churn Prediction Churn Prediction Churn Prediction Churn Prediction Churn Prediction Churn Prediction </h3>
-              <p class="muted">Prediksi churn + insight untuk strategi retention.</p>
-              <div class="chips">
-                <span class="chip">Python</span><span class="chip">Random Forest</span><span class="chip">FE</span>
-              </div>
-              <ul class="bullets">
-                <li>94% accuracy</li>
-                <li>23% churn reduction</li>
-                <li>$2.1M savings</li>
-              </ul>
-              <div class="btnrow">
-                <a class="btn btn-outline" href="https://github.com/namamu" target="_blank" rel="noreferrer">Code</a>
-                <a class="btn btn-dark" href="#" target="_blank" rel="noreferrer">Demo</a>
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Medical Image Classification</h3>
+              <p class="project-description">Assist radiologists in detecting abnormalities from X-ray and CT scan images using transfer learning.</p>
+              <div class="project-tags">
+                <span class="tag">Transfer Learning</span>
+                <span class="tag">EfficientNet</span>
+                <span class="tag">TensorFlow</span>
               </div>
             </div>
-          </article>
+          </div>
 
-          <article class="project card">
-            <img src="assets/img/p2.jpeg" alt="Project 2" />
-            <div class="p-body">
-              <h3>Fraud Detection</h3>
-              <p class="muted">Sistem fraud detection real-time skala besar.</p>
-              <div class="chips">
-                <span class="chip">Kafka</span><span class="chip">TensorFlow</span><span class="chip">Anomaly</span>
-              </div>
-              <ul class="bullets">
-                <li>&lt;100ms latency</li>
-                <li>99.8% precision</li>
-                <li>10K TPS</li>
-              </ul>
-              <div class="btnrow">
-                <a class="btn btn-outline" href="https://github.com/namamu" target="_blank" rel="noreferrer">Code</a>
-                <a class="btn btn-dark" href="#" target="_blank" rel="noreferrer">Demo</a>
-              </div>
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
             </div>
-          </article>
+            <div class="section-content">Accelerate diagnostic process by 60% with high-confidence abnormality detection across 3 hospitals.</div>
+          </div>
 
-          <article class="project card">
-            <img src="assets/img/p3.jpeg" alt="Project 3" />
-            <div class="p-body">
-              <h3>Sales Forecasting</h3>
-              <p class="muted">Dashboard forecasting untuk planning bulanan.</p>
-              <div class="chips">
-                <span class="chip">Time Series</span><span class="chip">ARIMA</span><span class="chip">Prophet</span>
-              </div>
-              <ul class="bullets">
-                <li>35% better accuracy</li>
-                <li>Interactive dashboard</li>
-                <li>Monthly forecasts</li>
-              </ul>
-              <div class="btnrow">
-                <a class="btn btn-outline" href="https://github.com/namamu" target="_blank" rel="noreferrer">Code</a>
-                <a class="btn btn-dark" href="#" target="_blank" rel="noreferrer">Demo</a>
-              </div>
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
             </div>
-          </article>
-        </div>
-
-        <div class="mt">
-          <a class="btn btn-outline" href="projects.html">Lihat semua projects →</a>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
         </div>
       </section>
 
-      <!-- Experience -->
-      <section id="experience" class="section">
-        <header class="section-head">
-          <h2>Experience & Education</h2>
-          <p class="muted">Ringkas perjalanan profesional dan pendidikan.</p>
-        </header>
+      <!-- Category 3: NLP & Text Analytics -->
+      <section class="category">
+        <div class="category-title">
+          <div class="category-badge">Deep Learning</div>
+          <h2>Natural Language Processing</h2>
+        </div>
 
-        <div class="card">
-          <h3>Senior Data Scientist — Company</h3>
-          <div class="muted">2022 — Present · Indonesia</div>
-          <p class="mt muted">Deskripsi singkat tanggung jawab dan scope.</p>
-          <ul class="bullets">
-            <li>Improve model accuracy 40%</li>
-            <li>Reduce infra cost 60%</li>
-            <li>Led cross-functional projects</li>
-          </ul>
-          <div class="chips mt">
-            <span class="chip">Python</span><span class="chip">AWS</span><span class="chip">MLOps</span>
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Multi-language Sentiment Analysis</h3>
+              <p class="project-description">Analyze customer sentiment from social media and reviews across 15 languages in real-time.</p>
+              <div class="project-tags">
+                <span class="tag">NLP</span>
+                <span class="tag">BERT</span>
+                <span class="tag">Streaming</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Process 1M+ posts daily to provide actionable sentiment insights across global markets.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Intelligent Customer Support Chatbot</h3>
+              <p class="project-description">Automate tier-1 customer support with intent classification and intelligent response generation.</p>
+              <div class="project-tags">
+                <span class="tag">Intent Classification</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Reduce support costs by automatically handling 70% of routine queries with 80%+ satisfaction.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
           </div>
         </div>
       </section>
+
+      <!-- Category 4: Business Intelligence & Analytics -->
+      <section class="category">
+        <div class="category-title">
+          <div class="category-badge">Data Visualisation</div>
+          <h2>Business Intelligence & Analytics</h2>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Executive Dashboard for KPI Tracking</h3>
+              <p class="project-description">Real-time visibility into key business metrics for executive decision-making and strategy alignment.</p>
+              <div class="project-tags">
+                <span class="tag">Tableau</span>
+                <span class="tag">BI</span>
+                <span class="tag">Dashboard</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Enable C-suite executives to monitor real-time business metrics and make data-driven decisions.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-header">
+              <h3>Customer Segmentation Analysis</h3>
+              <p class="project-description">Identify customer segments for targeted marketing and personalized customer experiences.</p>
+              <div class="project-tags">
+                <span class="tag">Clustering</span>
+                <span class="tag">RFM Analysis</span>
+                <span class="tag">Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa-solid fa-layer-group"></i>Problem
+            </div>
+            <div class="section-content">Discover 7 distinct customer segments for personalized marketing campaigns and product recommendations.</div>
+          </div>
+
+          <div class="project-section">
+            <div class="section-label">
+              <i class="fa fa-bar-chart"></i> Method & Result
+            </div>
+            <div class="project-actions">
+              <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
   </div>
-
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
